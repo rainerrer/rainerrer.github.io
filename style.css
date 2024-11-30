@@ -344,9 +344,7 @@ width: 100%;
 
 .char{
   font-size: 30px;
-  height: 40px;
   animation: an 1s ease-out 1 both;
-  display: inline-block;
   position: relative;
   top: 40px;
 }
