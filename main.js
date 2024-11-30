@@ -11,7 +11,7 @@ function animateTextOnScroll(entries, observer) {
             var animationDelay = 6;
 
             for(let i = 0; i < text.innerText.length; i++) {
-                newDom += '<span class="char">' + (text.innerText[i] === ' ' ? '&nbsp;' : text.innerText[i]) + '</span>';
+                newDom += '<p class="char">' + (text.innerText[i] === ' ' ? '&nbsp;' : text.innerText[i]) + '</p>';
             }
 
             text.innerHTML = newDom;
