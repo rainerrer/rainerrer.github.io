@@ -1105,4 +1105,6 @@ a:hover {
   }
 }
 
-
+#text {
+  font-size: 16px;
+}
